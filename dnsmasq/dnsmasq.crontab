@@ -1,0 +1,6 @@
+#
+MAILTO = ""
+SHELL = /bin/bash
+PATH = /home/app/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+* * * * * /home/app/bin/chkrun.sh /usr/sbin/dnsmasq -d

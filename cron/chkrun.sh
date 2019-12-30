@@ -11,7 +11,7 @@ function help(){
 PIDFILE="${HOME}/$(basename $1).pid"
 PIDFILE_VALID_SEC=120
 
-LOG="cron_init.log"
+LOG="chkrun.log"
 RET=""
 # all the options as CMD to invoke
 CMD=""; for x in $@; do CMD="${CMD} $x"; done

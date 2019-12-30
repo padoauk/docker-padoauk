@@ -8,7 +8,6 @@ function help(){
     echo $(basename $0) command arg1 arg2 ...
 }
 
-ETCD="/opt/etcd/bin/etcd"
 PIDFILE="${HOME}/$(basename $1).pid"
 PIDFILE_VALID_SEC=120
 

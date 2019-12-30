@@ -1,0 +1,6 @@
+#
+MAILTO = ""
+SHELL = /bin/bash
+PATH = $HOME/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+* * * * * ${HOME}/bin/chkrun.sh ${HOME}/bin/testapp
